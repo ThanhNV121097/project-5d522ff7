@@ -1,4 +1,4 @@
-import { T, useContent, useList } from "../editable";
+import { T, useList } from "../editable";
 
 export default function Products() {
   const list = useList<{ name: string; note: string }>("products.list");
