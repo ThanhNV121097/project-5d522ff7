@@ -15,8 +15,7 @@
   "products": {
     "heading": "The lineup",
     "hero": {
-      "name": "iPhone",
-      "caption": "iPhone on the counter"
+      "name": "iPhone"
     },
     "list": [
       { "name": "Mac", "note": "Notebooks and desktops, built for work that doesn't wait." },
