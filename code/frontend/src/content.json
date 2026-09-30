@@ -1,11 +1,32 @@
 {
-  "site": { "name": "Your business" },
-  "nav": { "links": [{ "label": "Home", "href": "/" }], "cta": { "label": "Get in touch", "href": "#contact" } },
-  "hero": {
-    "eyebrow": "",
-    "headline": "A headline of a few words",
-    "sub": "One line under it, and no more.",
-    "cta": { "label": "Get in touch", "href": "#contact" }
+  "site": { "name": "Tiệm công nghệ Thành" },
+  "nav": {
+    "links": [
+      { "label": "Lineup", "href": "#products" },
+      { "label": "Service", "href": "#service" }
+    ],
+    "cta": { "label": "See what's in stock", "href": "#products" }
   },
-  "footer": { "line": "Your business · District 1, Saigon" }
+  "hero": {
+    "headline": "Apple, and only Apple",
+    "sub": "iPhone, Mac, iPad, Watch and AirPods, sourced genuine and ready to try in store.",
+    "cta": { "label": "See what's in stock", "href": "#products" }
+  },
+  "products": {
+    "heading": "The lineup",
+    "hero": {
+      "name": "iPhone"
+    },
+    "list": [
+      { "name": "Mac", "note": "Notebooks and desktops, built for work that doesn't wait." },
+      { "name": "iPad", "note": "From note-taking to full creative work, in four sizes." },
+      { "name": "Watch", "note": "Paired to the iPhone you already carry." },
+      { "name": "AirPods", "note": "The everyday pair and the noise-cancelling one." }
+    ]
+  },
+  "service": {
+    "heading": "Every box, sealed",
+    "body": "What you buy here ships sealed, with the box, the cable and the paperwork Apple gives it. Nothing refurbished, nothing grey-market."
+  },
+  "footer": { "line": "Tiệm công nghệ Thành" }
 }
